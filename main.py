@@ -98,7 +98,7 @@ def next_song():
 window = tkinter.Tk()
 window.title("Music Player App")
 window.geometry("700x700")
-window["bg"] = "gray"
+window["bg"] = "pink"
 
 heart_icon = tkinter.PhotoImage(file="image/mu.png")
 heart_icon = heart_icon.subsample(3)
